@@ -1,0 +1,27 @@
+#Ignore README.md
+*.md
+
+# Ignore all COMTRADE data files
+*.dat
+*.cfg
+*.hdr
+*.inf
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+.env
+
+# Ignore git metadata
+.git/
+.gitignore
+
+# Ignore Docker/Podman related files (optional)
+Dockerfile
+docker-compose.yml
+.dockerignore
