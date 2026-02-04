@@ -1,4 +1,4 @@
-## Build/Compose
+## Information
 Inside the project folder must have these:
 ```
 ├── PROJECT_FOLDER
@@ -7,8 +7,12 @@ Inside the project folder must have these:
    ├── Dockerfile
    └── requirements.txt
 ```
+## How to get started
 ```shell
+git clone https://github.com/zmiguelb/comtrade_viewer.git
+cd comtrade_viewer
 podman build -t comtrade-viewer:1.0 .
+podman run -d -p 8501:8501 --name comtrade-viewer localhost/comtrade-viewer:1.0
 ```
 
 ## Run the image
